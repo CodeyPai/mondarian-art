@@ -6,17 +6,17 @@
     <title>Mondrian Img</title>
 
     <style>
-        /* Body styles for centering the container */
-        .body {
+        /* Main Container styles for centering the container */
+        .container1 {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             padding: 0;
         }
 
-        /* Main container grid setup */
+        /* Container grid setup */
         .container {
             display: grid;
             background-color: #030303;
@@ -117,29 +117,31 @@
         .yellow3 {
             grid-area: 5 / 3 / 8 / 6;
         }
-        
+
+
     </style>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="box red col-red"></div>
-        <div class="box white"></div>
-        <div class="box yellow col-yellow"></div>
-        <div class="box blue col-blue"></div>
-        <div class="box white2"></div>
-        <div class="box white3"></div>
-        <div class="box blue1 col-blue"></div>
-        <div class="box white4"></div>
-        <div class="box white5"></div>
-        <div class="box white6"></div>
-        <div class="box red1 col-red"></div>
-        <div class="box red2 col-red"></div>
-        <div class="box red3 col-red"></div>
-        <div class="box blue2 col-blue"></div>
-        <div class="box yellow1 col-yellow"></div>
-        <div class="box yellow2 col-yellow"></div>
-        <div class="box yellow3 col-yellow"></div>
+    <div class="container1">
+        <div class="container">
+            <div class="box red col-red"></div>
+            <div class="box white"></div>
+            <div class="box yellow col-yellow"></div>
+            <div class="box blue col-blue"></div>
+            <div class="box white2"></div>
+            <div class="box white3"></div>
+            <div class="box blue1 col-blue"></div>
+            <div class="box white4"></div>
+            <div class="box white5"></div>
+            <div class="box white6"></div>
+            <div class="box red1 col-red"></div>
+            <div class="box red2 col-red"></div>
+            <div class="box red3 col-red"></div>
+            <div class="box blue2 col-blue"></div>
+            <div class="box yellow1 col-yellow"></div>
+            <div class="box yellow2 col-yellow"></div>
+            <div class="box yellow3 col-yellow"></div>
+        </div>
     </div>
 
 </body>
